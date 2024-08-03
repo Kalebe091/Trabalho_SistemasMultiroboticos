@@ -17,6 +17,9 @@
     src: url('../font/Pokemon Classic.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
 main {
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +70,7 @@ main {
 }
 
 .container-avaliacoes .box-container .box {
-    width: 30em;
+    width: 25em;
     margin: 0 auto;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     border-radius: 5px;
@@ -218,7 +221,7 @@ button h2 {
 
 div.botoes > button > h2 > i:hover {
     font-size: 1.3em;
-    color: #810505;
+    color: #6b7b80;
 }
 
 button h2 > i {
